@@ -1,0 +1,5 @@
+.do
+.terraform
+terraform.tfvars
+id_rsa*
+*.tfstate*
