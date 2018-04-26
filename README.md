@@ -6,3 +6,12 @@ setup.
 
 
 Uses digitalocean and terraform.
+
+## Variables
+
+domain: domain name
+datacenter: datacenter for the nodes
+backup_datacenter: datacenter for half of the apache frontends
+do_dns_token: digitalocean api token to create and change domain
+do_ro_token: A read only digitalocean api token. Required for nodes discovery of
+Prometheus.
